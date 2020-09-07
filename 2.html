@@ -3,17 +3,29 @@
 <head>
 <title>Interests - Surfing</title>
 <meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="colors.js"></script>
+
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <h1><a href="index.html">Intersets</a></h1>
-  <ol>
-    <li><a href="1.html">Surfing</a></li>
-    <li><a href="2.html">Movie</a></li>
-    <li><a href="3.html">Porsche</a></li>
-  </ol>
-  <h2>Movie</h2>
-  <p>
-    Film, also called movie, motion picture or moving picture, is a visual art-form used to simulate experiences that communicate ideas, stories, perceptions, feelings, beauty, or atmosphere through the use of moving images. These images are generally accompanied by sound, and more rarely, other sensory stimulations.
-  </p>
+  <input id="nightday" type="button" value="night" onclick="
+  nightdayhandler(this);
+  ">
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">Surfing</a></li>
+      <li><a href="2.html">Movie</a></li>
+      <li><a href="3.html">Porsche</a></li>
+    </ol>
+    <div id="article">
+      <h2>Movie</h2>
+      <p>
+        Film, also called movie, motion picture or moving picture, is a visual art-form used to simulate experiences that communicate ideas, stories, perceptions, feelings, beauty, or atmosphere through the use of moving images. These images are generally accompanied by sound, and more rarely, other sensory stimulations.
+      </p>
+    </div>
+  </div>
 </body>
 </html>

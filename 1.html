@@ -3,17 +3,34 @@
 <head>
 <title>Interests - Surfing</title>
 <meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="colors.js"></script>
+
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <h1><a href="index.html">Intersets</a></h1>
-  <ol>
-    <li><a href="1.html">Surfing</a></li>
-    <li><a href="2.html">Movie</a></li>
-    <li><a href="3.html">Porsche</a></li>
-  </ol>
-  <h2>Surfing</h2>
-  <p>Surfing is <strong>a surface <u>water pastime</u></strong> in which the wave rider, referred to as a surfer, rides on the forward part, or face, of a moving wave, which usually carries the surfer towards the shore.
-  <img src="surfing.jpg" width="100%"></p>
-  <p style="margin-top:30px;"><a href="https://www.windfinder.com/#9/38.1691/129.2514" target="_blank" title="real-time waves">Waves</a> suitable for surfing are primarily found in the ocean, but can also be found in lakes or rivers in the form of a standing wave or tidal bore. However, surfers can also utilize artificial waves such as those from boat wakes and the waves created in artificial wave pools.</p>
+  <input id="nightday" type="button" value="night" onclick="
+  nightdayhandler(this);
+  ">
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">Surfing</a></li>
+      <li><a href="2.html">Movie</a></li>
+      <li><a href="3.html">Porsche</a></li>
+    </ol>
+    <div id="article">
+    <h2>Surfing</h2>
+    <p>Surfing is <strong>a surface <u>water pastime</u></strong> in which the wave rider, referred to as a surfer, rides on the forward part, or face, of a moving wave, which usually carries the surfer towards the shore.
+    </p>
+    <img src="surfing.jpg" width="50%" class="center">
+    <p style="margin-top:30px;"><a href="https://www.windfinder.com/#9/38.1691/129.2514" target="_blank" title="real-time waves">Waves</a> suitable for surfing are primarily found in the ocean, but can also be found in lakes or rivers in the form of a standing wave or tidal bore. However, surfers can also utilize artificial waves such as those from boat wakes and the waves created in artificial wave pools.</p>
+
+  <!동영상기능>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/W7h-Yho8EB0" class="center" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
 </body>
 </html>

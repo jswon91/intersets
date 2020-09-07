@@ -3,17 +3,36 @@
 <head>
 <title>Interests - Surfing</title>
 <meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="colors.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+ a {
+   color:blue;
+ }
+</style>
 </head>
+
 <body>
   <h1><a href="index.html">Intersets</a></h1>
-  <ol>
-    <li><a href="1.html">Surfing</a></li>
-    <li><a href="2.html">Movie</a></li>
-    <li><a href="3.html">Porsche</a></li>
-  </ol>
-  <h2>Porsche</h2>
-  <p>
-    Dr.-Ing. h.c. F. Porsche AG, usually shortened to Porsche AG (German pronunciation: [ˈpɔɐ̯ʃə] (About this soundlisten); see below), is a German automobile manufacturer specializing in high-performance sports cars, SUVs and sedans. The headquarters of Porsche AG is in Stuttgart, and the company is owned by Volkswagen AG, a controlling stake of which is owned by Porsche Automobil Holding SE. Porsche's current lineup includes the 718 Boxster/Cayman, 911, Panamera, Macan, Cayenne and Taycan.
-  </p>
+  <input id="nightday" type="button" value="night" onclick="
+  nightdayhandler(this);
+  ">
+
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">Surfing</a></li>
+      <li><a href="2.html">Movie</a></li>
+      <li><a href="3.html">Porsche</a></li>
+    </ol>
+    <div id="article">
+      <h2>Porsche</h2>
+      <p>
+        Dr.-Ing. h.c. F. Porsche AG, usually shortened to Porsche AG (German pronunciation: [ˈpɔɐ̯ʃə] (About this soundlisten); see below), is a German automobile manufacturer specializing in high-performance sports cars, SUVs and sedans. The headquarters of Porsche AG is in Stuttgart, and the company is owned by Volkswagen AG, a controlling stake of which is owned by Porsche Automobil Holding SE. Porsche's current lineup includes the 718 Boxster/Cayman, 911, Panamera, Macan, Cayenne and Taycan.
+      </p>
+    </div>
+  </div>
+
+
 </body>
 </html>
